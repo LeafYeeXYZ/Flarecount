@@ -113,3 +113,5 @@ Current Deployment ID: xxxxxxxxxxxxxxxxxx
 <p>本页总访问量为<span id="busuanzi_value_page_pv"></span></p>
 <p>本页访问用户有<span id="busuanzi_value_page_uv"></span></p>
 ```
+
+本工具不会从不蒜子拉取数据，如需要初始化数据，请自行通过JS修改
