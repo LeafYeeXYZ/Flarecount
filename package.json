@@ -1,6 +1,6 @@
 {
-  "name": "analytics_with_cloudflare",
-  "version": "0.0.0",
+  "name": "flarecount",
+  "version": "1.0.0",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
