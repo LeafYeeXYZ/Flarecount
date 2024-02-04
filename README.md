@@ -61,6 +61,9 @@ npm run deploy
 **成功示例**
 
 ```bash
+> flarecount@1.0.0 deploy
+> wrangler deploy
+
  ⛅️ wrangler 3.26.0
 -------------------
 Your worker has access to the following bindings:
