@@ -6,9 +6,13 @@
 
 ## 服务端部署
 
-### 登陆 Cloudflare
+### 安装 wrangler
 
-> 请先安装 `wrangler`
+```bash
+npm install wrangler
+```
+
+### 登陆 Cloudflare
 
 ```bash
 npx wrangler login
@@ -60,17 +64,16 @@ npm run deploy
 > analytics_with_cloudflare@0.0.0 deploy
 > wrangler deploy
 
-Proxy environment variables detected. We'll use your proxy for fetch requests.
- ⛅️ wrangler 3.18.0
+ ⛅️ wrangler 3.26.0
 -------------------
 Your worker has access to the following bindings:
 - D1 Databases:
-  - DB: web_analytics (<unique-ID-for-your-database>)
-Total Upload: 50.28 KiB / gzip: 12.23 KiB
-Uploaded analytics_with_cloudflare (1.29 sec)
-Published analytics_with_cloudflare (4.03 sec)
-  https://analytics_with_cloudflare.xxxxx.workers.dev
-Current Deployment ID: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - DB: xxx (xxxxxxxxxxxxxxxxxxx)
+Total Upload: 58.60 KiB / gzip: 13.92 KiB
+Uploaded flarecount (1.84 sec)
+Published flarecount (3.99 sec)
+  https://flarecount.xxxxx.workers.dev
+Current Deployment ID: xxxxxxxxxxxxxxxxxx
 ```
 
 ## 客户端部署
