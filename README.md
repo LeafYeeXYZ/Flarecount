@@ -20,7 +20,7 @@ npx wrangler login
 npx wrangler d1 create <DATABASE_NAME>
 ```
 
-**成功示例**
+成功示例
 
 ```bash
 ✅ Successfully created DB '<DATABASE_NAME>'
@@ -75,9 +75,38 @@ Current Deployment ID: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 客户端部署
 
-### 将 `flarecount.js` 添加到你的网站
+### 直接引入
+
+引入 `flarecount.js`
 
 ```html
+<script defer src="xxxxx/flarecount.js" data-base-url="https://flarecount.xxx.workers.dev"></script>
+<!-- 推荐使用自定义域名 -->
+```
 
+展示数据
 
+```html
+<p>网站总访问量为<span id="site_pv"></span></p>
+<p>网站访问用户有<span id="site_uv"></span></p>
+<p>本页总访问量为<span id="page_pv"></span></p>
+<p>本页访问用户有<span id="page_uv"></span></p>
+```
+
+### 兼容不蒜子
+
+引入 `flarecount.js`
+
+```html
+<script defer src="xxxxx/flarecount.js" data-base-url="https://flarecount.xxx.workers.dev" data-busuanzi-mode="true"></script>
+<!-- 推荐使用自定义域名 -->
+```
+
+展示数据
+
+```html
+<p>网站总访问量为<span id="busuanzi_value_site_pv"></span></p>
+<p>网站访问用户有<span id="busuanzi_value_site_uv"></span></p>
+<p>本页总访问量为<span id="busuanzi_value_page_pv"></span></p>
+<p>本页访问用户有<span id="busuanzi_value_page_uv"></span></p>
 ```
