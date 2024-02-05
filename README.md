@@ -80,10 +80,10 @@ Current Deployment ID: xxxxxxxxxxxxxxxxxx
 
 ### 直接引入
 
-引入 `flarecount.js`
+引入 `flarecount.min.js`
 
 ```html
-<script defer src="xxxxx/flarecount.js" data-base-url="https://flarecount.xxx.workers.dev"></script>
+<script defer src="xxxxx/flarecount.min.js" data-base-url="https://flarecount.xxx.workers.dev"></script>
 <!-- 推荐使用自定义域名 -->
 ```
 
@@ -101,7 +101,7 @@ Current Deployment ID: xxxxxxxxxxxxxxxxxx
 引入 `flarecount.js`
 
 ```html
-<script defer src="xxxxx/flarecount.js" data-base-url="https://flarecount.xxx.workers.dev" data-busuanzi-mode="true"></script>
+<script defer src="xxxxx/flarecount.min.js" data-base-url="https://flarecount.xxx.workers.dev" data-busuanzi-mode="true"></script>
 <!-- 推荐使用自定义域名 -->
 ```
 
