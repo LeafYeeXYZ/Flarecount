@@ -2,7 +2,7 @@
 
 **基于 `Cloudflare Workers` 和 `D1` 的网站访问量统计工具，可从不蒜子无缝切换**
 
-**Website traffic statistics tool based on `Cloudflare Workers` and `D1`, seamlessly switchable from busuanzi**
+**A serverless tool to count visitors of your website, based on `Cloudflare Workers` and `D1`**
 
 > 本项目源自[yestool/analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare)，在此基础上添加了 `site_pv` 和 `site_uv` 的统计功能、修改了前端的引入方法，从而能从 `busuanzi` 无缝切换、汉化了 `README.md`
 
