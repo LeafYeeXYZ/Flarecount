@@ -6,7 +6,7 @@
 
 > 本项目源自[yestool/analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare)，在此基础上添加了 `site_pv` 和 `site_uv` 的统计功能、修改了前端的引入方法，从而能从 `busuanzi` 无缝切换、汉化了 `README.md`
 
-## 服务端部署 / Server-side Deployment
+## 服务端部署 / Server
 
 ### 安装 wrangler / Install wrangler
 
@@ -80,7 +80,7 @@ Published flarecount (3.99 sec)
 Current Deployment ID: xxxxxxxxxxxxxxxxxx
 ```
 
-## 客户端部署 / Client-side Deployment
+## 客户端部署 / Client
 
 ### 直接引入 / Quick start
 
