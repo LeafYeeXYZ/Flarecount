@@ -8,10 +8,12 @@
 
 ## 服务端部署 / Server
 
-### 安装 wrangler / Install wrangler
+### 安装依赖 / Install dependences
+
+> 请确保你已安装 Node.js / Make sure you have installed Node.js
 
 ```bash
-npm install wrangler
+npm i
 ```
 
 ### 登陆 Cloudflare / Login Cloudflare
